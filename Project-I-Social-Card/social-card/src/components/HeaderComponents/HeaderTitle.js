@@ -10,9 +10,11 @@ const HeaderTitle = props => {
     return (
       <div className="header-box">
         <div className="header-title">
-          Lambda School
-          <p>@LambdaSchool</p>
-          <span className="time-stamp">{time.format("MMM Do ")}</span>
+          <h4 className="title-objects">Lambda School</h4>
+          <p className="title-objects">@LambdaSchool</p>
+          <span className="time-stamp title-objects">
+            {time.format("MMM Do ")}
+          </span>
         </div>
         <HeaderContent />
       </div>
