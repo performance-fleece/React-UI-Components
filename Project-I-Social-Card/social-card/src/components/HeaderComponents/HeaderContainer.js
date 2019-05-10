@@ -5,14 +5,19 @@ import HeaderTitle from './HeaderTitle';
 
 const HeaderContainer = props => {
     return (
-      <header>
-        <div className="header-img">
-          <ImageThumbnail />
-        </div>
-        <div className="header-content">
+      <div className="header-container">
+        
+        <ImageThumbnail />
+        
+        <div className="header-content-box">
           <HeaderTitle />
+          
         </div>
-      </header>
+      </div>
+
+
+        
+      
     );
 }
 

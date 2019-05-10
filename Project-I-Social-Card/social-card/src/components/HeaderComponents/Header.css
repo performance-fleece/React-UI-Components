@@ -1,57 +1,60 @@
 /* All styles for your header Components live here */
 
 
-header {
+.header-container {
     display : flex;
     flex-flow : row nowrap;
-    
+    border: 1px solid red;
+    margin: 1px;
+    height: 100px;
 }
 
-header .header-img {
+
+
+.header-img {
     border: 1px solid green;
-}
-
-header .img-box img {
-    width: 56px;
-    padding-top: 5px;
-}
-    
-header .header-content .header-box .header-title {
-
+    margin: 4px 2px;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: baseline;
+    width: 55px;
+    height: 55px;
+}
+
+.title-img {
+    height: 55px;
+    width: 55px;
+}
+
+.header-content-box {
+    border: 1px solid lightblue;
+    margin: 4px 5px 2px 0;
+}
+
+.header-content-box .header-title {
+    display: flex;
     justify-content: left;
-    margin: 0 0;
-    font-size: 15pt;
-    
-
+    align-items: baseline;
+    padding: 8px 1px;
 }
 
-header .header-title h4 {
+.header-content-box .header-title h4 {
+    font-size: 10.5pt;
     margin: 0;
-    font-size: 10.5pt;
 }
 
-header .title-objects {
-    padding: 0 5px;
+.header-content-box .header-title p {
+    margin: 0;
+    font-size: 9.5pt;
+    color: darkgrey;
+    margin: 0 5px;
 }
 
-header .header-title p {
+.header-title .time-stamp {
     color: darkgrey;
     font-size: 9pt;
 }
 
-header .header-title .time-stamp {
-    color: darkgrey;
-    font-size: 9pt;
+.header-box .header-content {
+    margin: 0;
+    font-size: 11pt;
 }
-
-header .header-box .content-header {
-    margin: 0 0;
-    font-size: 10.5pt;
-    background-color: lightgrey;
-    margin-left: 5px;
-    width: 505px;
-
-}
+ 
