@@ -1,1 +1,14 @@
 /* All styles for your header Components live here */
+
+
+header {
+    display : flex;
+    flex-flow : row nowrap;
+    
+};
+    
+header .header-content .header-box .header-title {
+
+    display: flex;
+    flex-flow: row nowrap;
+};
