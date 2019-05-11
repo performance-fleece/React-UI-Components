@@ -4,9 +4,10 @@
 */
 
 #root {
+  display: flex;
   border: 1px solid blue;
   margin: 0 0;
-  width: 581px;
+  width: 580px;
   height: 505px;
-  padding: 2px;
+  padding: 3px;
 }
