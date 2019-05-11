@@ -1,7 +1,33 @@
+.action-button {
+    height: 71px;
+    width: 221px;
+    border: 2px solid lightgray;
+    text-align: center;
+    font-size: 25pt;
+    line-height: 75px;
+}
+
+.number-button {
+    height: 71px;
+    border: 2px solid lightgray;
+    text-align: center;
+    font-size: 25pt;
+    line-height: 75px;
+}
+
+
 .one-wide {
-    width: 75px;
+    width: 71px;
 }
 
 .three-wide {
-    width: 225px;
+    width: 221px;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
 }
