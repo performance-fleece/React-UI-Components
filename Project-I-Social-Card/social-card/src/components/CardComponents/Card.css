@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+
+
+.card-box {
+    border: 1px solid purple;
+    height: 360px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

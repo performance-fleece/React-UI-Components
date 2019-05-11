@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 import moment from "react-moment";
 
 
@@ -9,6 +10,7 @@ const App = () => {
     
     <div>
       <HeaderContainer />
+      <CardContainer />
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
