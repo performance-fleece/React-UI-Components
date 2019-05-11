@@ -5,7 +5,6 @@
     display : flex;
     flex-flow : row nowrap;
     border: 1px solid red;
-    margin: 1px;
     height: 100px;
 }
 
