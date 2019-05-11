@@ -1,0 +1,27 @@
+.action-button {
+    height: 71px;
+    width: 225px;
+    border: 2px solid lightgray;
+    text-align: center;
+    font-size: 25pt;
+    line-height: 75px;
+}
+
+.number-button {
+    height: 71px;
+    width: 75px;
+    border: 2px solid lightgray;
+    text-align: center;
+    font-size: 25pt;
+    line-height: 75px;
+}
+
+
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
