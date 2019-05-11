@@ -3,13 +3,12 @@ import './Button.css';
 
 const NumberButton = props => {
     return (
-        <div className={`number-button ${props.bgColor} ${props.buttonWidth}`}>{props.text}</div>
+        <button className={`number-button ${props.bgColor} ${props.buttonStyle}`}>{props.text}</button>
     );
 };
 
  NumberButton.defaultProps = {
    bgColor: "white",
-   buttonWidth: "one-wide"
  };
- 
+
 export default NumberButton

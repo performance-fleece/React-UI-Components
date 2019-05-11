@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = props => {
     return (
-        <div className={`action-button ${props.bgColor} ${props.buttonWidth}`}>{props.text}</div>
+        <button className={`action-button ${props.bgColor} ${props.buttonWidth}`}>{props.text}</button>
     )
 
     
@@ -11,8 +11,7 @@ const ActionButton = props => {
 };
 
 ActionButton.defaultProps = {
-  buttonWidth: "one-wide",
-  bgColor: "red"
+    bgColor: 'white',
 };
 
 export default ActionButton

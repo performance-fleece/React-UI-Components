@@ -1,6 +1,6 @@
 .action-button {
     height: 71px;
-    width: 221px;
+    width: 225px;
     border: 2px solid lightgray;
     text-align: center;
     font-size: 25pt;
@@ -9,6 +9,7 @@
 
 .number-button {
     height: 71px;
+    width: 75px;
     border: 2px solid lightgray;
     text-align: center;
     font-size: 25pt;
@@ -16,13 +17,6 @@
 }
 
 
-.one-wide {
-    width: 71px;
-}
-
-.three-wide {
-    width: 221px;
-}
 
 .white {
     background-color: white;
